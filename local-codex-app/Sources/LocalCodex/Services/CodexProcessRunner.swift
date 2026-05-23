@@ -151,6 +151,12 @@ final class CodexProcessRunner: ObservableObject {
     }
 
     static func codexBinaryPath() -> String {
+        let environment = processEnvironment()
+        if let explicitPath = environment["CODEX_BINARY"],
+           FileManager.default.isExecutableFile(atPath: explicitPath) {
+            return explicitPath
+        }
+
         let bundlePath = Bundle.main.bundlePath as NSString
         let distDir = bundlePath.deletingLastPathComponent as NSString
         let appRoot = distDir.deletingLastPathComponent as NSString
@@ -166,7 +172,22 @@ final class CodexProcessRunner: ObservableObject {
             return siblingBinary
         }
 
-        return "/Users/neelsharma/Desktop/LocalCode/codex-main/codex-rs/target/debug/codex"
+        if let pathBinary = executablePath(named: "codex", path: environment["PATH"]) {
+            return pathBinary
+        }
+
+        return projectBinary
+    }
+
+    private static func executablePath(named name: String, path: String?) -> String? {
+        guard let path else { return nil }
+        for directory in path.split(separator: ":") {
+            let candidate = "\(directory)/\(name)"
+            if FileManager.default.isExecutableFile(atPath: candidate) {
+                return candidate
+            }
+        }
+        return nil
     }
 
     private static func processEnvironment() -> [String: String] {

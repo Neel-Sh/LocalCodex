@@ -17,17 +17,31 @@ APP_RESOURCES="$APP_CONTENTS/Resources"
 APP_BINARY="$APP_MACOS/$APP_NAME"
 INFO_PLIST="$APP_CONTENTS/Info.plist"
 DESKTOP_APP="$HOME/Desktop/$BUNDLE_NAME.app"
-CODEX_BINARY="$REPO_ROOT/codex-rs/target/debug/codex"
+CODEX_BINARY="${CODEX_BINARY:-}"
+LOCAL_CODEX_BINARY="$REPO_ROOT/codex-rs/target/debug/codex"
+DESKTOP_CODEX_BINARY="$HOME/Desktop/codex"
 ICON_SOURCE="$REPO_ROOT/../LocalChatImage.icon/Assets/Image.png"
 ICONSET="$DIST_DIR/LocalCodex.iconset"
 ICON_FILE="LocalCodex.icns"
 
 pkill -x "$APP_NAME" >/dev/null 2>&1 || true
 
-if [[ ! -x "$CODEX_BINARY" ]]; then
-  echo "Codex binary missing at $CODEX_BINARY" >&2
-  echo "Build it first from codex-rs with: cargo build -p codex-cli" >&2
+if [[ -n "$CODEX_BINARY" && ! -x "$CODEX_BINARY" ]]; then
+  echo "CODEX_BINARY is set but not executable: $CODEX_BINARY" >&2
   exit 1
+fi
+
+if [[ -z "$CODEX_BINARY" && -x "$LOCAL_CODEX_BINARY" ]]; then
+  CODEX_BINARY="$LOCAL_CODEX_BINARY"
+fi
+
+if [[ -z "$CODEX_BINARY" ]]; then
+  CODEX_BINARY="$(command -v codex || true)"
+fi
+
+if [[ -z "$CODEX_BINARY" ]]; then
+  echo "Warning: no Codex binary found." >&2
+  echo "Set CODEX_BINARY=/path/to/codex, install codex on PATH, or build ../codex-rs/target/debug/codex." >&2
 fi
 
 swift build --package-path "$ROOT_DIR"
@@ -79,6 +93,10 @@ PLIST
 
 rm -rf "$DESKTOP_APP"
 cp -R "$APP_BUNDLE" "$DESKTOP_APP"
+if [[ -n "$CODEX_BINARY" ]]; then
+  cp "$CODEX_BINARY" "$DESKTOP_CODEX_BINARY"
+  chmod +x "$DESKTOP_CODEX_BINARY"
+fi
 
 open_app() {
   /usr/bin/open -n "$DESKTOP_APP"
