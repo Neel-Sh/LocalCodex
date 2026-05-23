@@ -1,0 +1,17 @@
+/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/Sources/LocalCodex/App/LocalCodexApp.swift
+/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/Sources/LocalCodex/Models/AppModels.swift
+/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/Sources/LocalCodex/Services/CodexProcessRunner.swift
+/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/Sources/LocalCodex/Services/GitDiffService.swift
+/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/Sources/LocalCodex/Services/ModelDownloadService.swift
+/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/Sources/LocalCodex/Services/ProjectContextService.swift
+/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/Sources/LocalCodex/Services/ProjectFileScanner.swift
+/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/Sources/LocalCodex/Services/ProviderHealthService.swift
+/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/Sources/LocalCodex/Stores/AppStore.swift
+/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/Sources/LocalCodex/Support/Theme.swift
+/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/Sources/LocalCodex/Views/ChatView.swift
+/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/Sources/LocalCodex/Views/ComposerView.swift
+/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/Sources/LocalCodex/Views/ContentView.swift
+/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/Sources/LocalCodex/Views/InspectorView.swift
+/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/Sources/LocalCodex/Views/MarkdownMessageView.swift
+/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/Sources/LocalCodex/Views/SettingsView.swift
+/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/Sources/LocalCodex/Views/SidebarView.swift

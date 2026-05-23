@@ -1,0 +1,124 @@
+{
+  "": {
+    "swift-dependencies": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/master.swiftdeps"
+  },
+  "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/Sources/LocalCodex/App/LocalCodexApp.swift": {
+    "dependencies": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/LocalCodexApp.d",
+    "object": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/LocalCodexApp.swift.o",
+    "swiftmodule": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/LocalCodexApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/LocalCodexApp.swiftdeps",
+    "diagnostics": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/LocalCodexApp.dia"
+  },
+  "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/Sources/LocalCodex/Models/AppModels.swift": {
+    "dependencies": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/AppModels.d",
+    "object": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/AppModels.swift.o",
+    "swiftmodule": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/AppModels~partial.swiftmodule",
+    "swift-dependencies": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/AppModels.swiftdeps",
+    "diagnostics": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/AppModels.dia"
+  },
+  "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/Sources/LocalCodex/Services/CodexProcessRunner.swift": {
+    "dependencies": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/CodexProcessRunner.d",
+    "object": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/CodexProcessRunner.swift.o",
+    "swiftmodule": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/CodexProcessRunner~partial.swiftmodule",
+    "swift-dependencies": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/CodexProcessRunner.swiftdeps",
+    "diagnostics": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/CodexProcessRunner.dia"
+  },
+  "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/Sources/LocalCodex/Services/GitDiffService.swift": {
+    "dependencies": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/GitDiffService.d",
+    "object": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/GitDiffService.swift.o",
+    "swiftmodule": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/GitDiffService~partial.swiftmodule",
+    "swift-dependencies": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/GitDiffService.swiftdeps",
+    "diagnostics": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/GitDiffService.dia"
+  },
+  "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/Sources/LocalCodex/Services/ModelDownloadService.swift": {
+    "dependencies": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/ModelDownloadService.d",
+    "object": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/ModelDownloadService.swift.o",
+    "swiftmodule": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/ModelDownloadService~partial.swiftmodule",
+    "swift-dependencies": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/ModelDownloadService.swiftdeps",
+    "diagnostics": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/ModelDownloadService.dia"
+  },
+  "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/Sources/LocalCodex/Services/ProjectContextService.swift": {
+    "dependencies": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/ProjectContextService.d",
+    "object": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/ProjectContextService.swift.o",
+    "swiftmodule": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/ProjectContextService~partial.swiftmodule",
+    "swift-dependencies": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/ProjectContextService.swiftdeps",
+    "diagnostics": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/ProjectContextService.dia"
+  },
+  "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/Sources/LocalCodex/Services/ProjectFileScanner.swift": {
+    "dependencies": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/ProjectFileScanner.d",
+    "object": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/ProjectFileScanner.swift.o",
+    "swiftmodule": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/ProjectFileScanner~partial.swiftmodule",
+    "swift-dependencies": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/ProjectFileScanner.swiftdeps",
+    "diagnostics": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/ProjectFileScanner.dia"
+  },
+  "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/Sources/LocalCodex/Services/ProviderHealthService.swift": {
+    "dependencies": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/ProviderHealthService.d",
+    "object": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/ProviderHealthService.swift.o",
+    "swiftmodule": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/ProviderHealthService~partial.swiftmodule",
+    "swift-dependencies": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/ProviderHealthService.swiftdeps",
+    "diagnostics": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/ProviderHealthService.dia"
+  },
+  "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/Sources/LocalCodex/Stores/AppStore.swift": {
+    "dependencies": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/AppStore.d",
+    "object": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/AppStore.swift.o",
+    "swiftmodule": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/AppStore~partial.swiftmodule",
+    "swift-dependencies": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/AppStore.swiftdeps",
+    "diagnostics": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/AppStore.dia"
+  },
+  "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/Sources/LocalCodex/Support/Theme.swift": {
+    "dependencies": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/Theme.d",
+    "object": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/Theme.swift.o",
+    "swiftmodule": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/Theme~partial.swiftmodule",
+    "swift-dependencies": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/Theme.swiftdeps",
+    "diagnostics": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/Theme.dia"
+  },
+  "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/Sources/LocalCodex/Views/ChatView.swift": {
+    "dependencies": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/ChatView.d",
+    "object": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/ChatView.swift.o",
+    "swiftmodule": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/ChatView~partial.swiftmodule",
+    "swift-dependencies": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/ChatView.swiftdeps",
+    "diagnostics": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/ChatView.dia"
+  },
+  "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/Sources/LocalCodex/Views/ComposerView.swift": {
+    "dependencies": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/ComposerView.d",
+    "object": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/ComposerView.swift.o",
+    "swiftmodule": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/ComposerView~partial.swiftmodule",
+    "swift-dependencies": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/ComposerView.swiftdeps",
+    "diagnostics": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/ComposerView.dia"
+  },
+  "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/Sources/LocalCodex/Views/ContentView.swift": {
+    "dependencies": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/ContentView.d",
+    "object": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/ContentView.swift.o",
+    "swiftmodule": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/ContentView~partial.swiftmodule",
+    "swift-dependencies": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/ContentView.swiftdeps",
+    "diagnostics": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/ContentView.dia"
+  },
+  "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/Sources/LocalCodex/Views/InspectorView.swift": {
+    "dependencies": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/InspectorView.d",
+    "object": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/InspectorView.swift.o",
+    "swiftmodule": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/InspectorView~partial.swiftmodule",
+    "swift-dependencies": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/InspectorView.swiftdeps",
+    "diagnostics": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/InspectorView.dia"
+  },
+  "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/Sources/LocalCodex/Views/MarkdownMessageView.swift": {
+    "dependencies": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/MarkdownMessageView.d",
+    "object": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/MarkdownMessageView.swift.o",
+    "swiftmodule": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/MarkdownMessageView~partial.swiftmodule",
+    "swift-dependencies": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/MarkdownMessageView.swiftdeps",
+    "diagnostics": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/MarkdownMessageView.dia"
+  },
+  "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/Sources/LocalCodex/Views/SettingsView.swift": {
+    "dependencies": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/SettingsView.d",
+    "object": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/SettingsView.swift.o",
+    "swiftmodule": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/SettingsView~partial.swiftmodule",
+    "swift-dependencies": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/SettingsView.swiftdeps",
+    "diagnostics": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/SettingsView.dia"
+  },
+  "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/Sources/LocalCodex/Views/SidebarView.swift": {
+    "dependencies": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/SidebarView.d",
+    "object": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/SidebarView.swift.o",
+    "swiftmodule": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/SidebarView~partial.swiftmodule",
+    "swift-dependencies": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/SidebarView.swiftdeps",
+    "diagnostics": "/Users/neelsharma/Desktop/LocalCode/codex-main/local-codex-app/.build/arm64-apple-macosx/debug/LocalCodex.build/SidebarView.dia"
+  }
+}
