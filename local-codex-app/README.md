@@ -84,10 +84,10 @@ Or point the build script at a specific binary:
 CODEX_BINARY=/path/to/codex ./script/build_and_run.sh
 ```
 
-Or, for development beside a Codex source checkout, build the debug CLI from the repository root:
+For development with a separately obtained Codex source checkout, build the CLI there and pass the resulting binary through `CODEX_BINARY`. This repository contains only the Swift app; it does not include `codex-rs`:
 
 ```shell
-cd codex-rs
+cd /path/to/codex/codex-rs
 cargo build -p codex-cli
 ```
 
@@ -301,13 +301,10 @@ Install Codex, set `CODEX_BINARY`, or build the CLI from source:
 CODEX_BINARY=/path/to/codex ./script/build_and_run.sh
 ```
 
-For local source development:
+For local source development, first build the CLI in your separate Codex checkout. Then, from this app directory, use its absolute binary path:
 
 ```shell
-cd ../codex-rs
-cargo build -p codex-cli
-cd ../local-codex-app
-./script/build_and_run.sh
+CODEX_BINARY=/path/to/codex/codex-rs/target/debug/codex ./script/build_and_run.sh
 ```
 
 ### Provider is offline

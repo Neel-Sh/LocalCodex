@@ -4,6 +4,11 @@
 # Keep the app repository shell.
 !/.gitignore
 !/README.md
+!/.editorconfig
+!/.gitattributes
+!/CONTRIBUTING.md
+!/.github/
+!/.github/**
 !/local-codex-app/
 
 # Keep the Local Codex app source and docs.
@@ -28,3 +33,28 @@ local-codex-app/DerivedData/
 Icon?
 *.swp
 *~
+
+# Local machine files and credentials
+Thumbs.db
+*.swo
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*.p12
+*.p8
+*.mobileprovision
+*.provisionprofile
+# Swift and Xcode
+xcuserdata/
+*.xcuserstate
+DerivedData/
+.build/
+build/
+*.xcresult
+*.xcarchive
+*.ipa
+*.dSYM/
+*.dSYM.zip
+dist/
